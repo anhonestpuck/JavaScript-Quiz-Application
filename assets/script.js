@@ -22,6 +22,7 @@ var pageDefault = document.querySelector('body');
 var button = document.querySelector('.button');
 var quiz = document.getElementsByClassName('.quiz').setAttribute('hidden');
 
+    quiz = quiz.setAttribute('style', 'display: hidden')
     
 
 
