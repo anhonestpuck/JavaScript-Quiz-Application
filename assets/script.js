@@ -20,21 +20,14 @@
 // or if I just keep writing in the variables.
 var pageDefault = document.querySelector('body');
 var button = document.querySelector('.button');
-var quiz = document.getElementsByClassName('.quiz').setAttribute('hidden');
-
-    quiz = quiz.setAttribute('style', 'display: hidden')
-    
-
-
-
-
+var quiz = document.querySelector('.quiz');
+var question1 = document.querySelector('.question1')
 
 
 button.addEventListener('click', displayQuestion);
 
 
 function displayQuestion() {
-
-console.log('hello');
+    
 
 }
