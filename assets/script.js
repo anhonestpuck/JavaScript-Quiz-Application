@@ -32,7 +32,7 @@ button.addEventListener('click', displayQuestion);
 
 
 function displayQuestion() {
-    question1.setAttribute('display: visible').addEventListener('click');
+    quiz.setAttribute('display: visible').addEventListener('click');
 
     console.log('hello');
 
