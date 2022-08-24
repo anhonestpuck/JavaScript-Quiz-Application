@@ -21,13 +21,17 @@
 var pageDefault = document.querySelector('body');
 var button = document.querySelector('.button');
 var quiz = document.querySelector('.quiz');
-var question1 = document.querySelector('.question1')
-
-
+var question1 = document.querySelector('.question1');
+var question2 = document.querySelector('.question2');
+var question3 = document.querySelector('.question3');
+var question4 = document.querySelector('.question4')
+var initials = document.querySelector('initials')
 button.addEventListener('click', displayQuestion);
 
 
 function displayQuestion() {
-    
+    quiz.setAttributeNode('display: visible')
+
+    console.log('hello')
 
 }
