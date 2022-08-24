@@ -19,7 +19,7 @@
 // the new stuff in there but I don't remember how to just move onto the next one after
 // or if I just keep writing in the variables.
 var pageDefault = document.querySelector('body');
-var button = document.querySelector('.button');
+var button = document.querySelector('.startbutton');
 var quiz = document.querySelector('.quiz');
 var question1 = document.querySelector('.question1');
 var question2 = document.querySelector('.question2');
@@ -30,6 +30,9 @@ var ca1 = document.querySelector('.ca1');
 var ca2 = document.querySelector('.ca2');
 var ca3 = document.querySelector('.ca3');
 var ca4 = document.querySelector('.ca4');
+
+
+
 // at this point i'd rather have variables and not need them, than the other
 // pretty much just put together the rest of the variables.  do I really need to go in and juice up my css to make this work?
 button.addEventListener('click', displayQuestion);
@@ -37,6 +40,15 @@ button.addEventListener('click', displayQuestion);
 
 function displayQuestion() {
     question1.setAttribute('style', 'visibility: visible');
+    if (ca1.addEventListener('click', ca1.target)){
+        // so I got here.  I haven't stopped for more than 30 min
+        // It's now 11:30.  I can't figure out how to make sure that the question clears
+        // if the user clicks the correct answer so I can blanketly give a result
+        // for any other click and then track the correct answer (in an empty array then display the length as the score?) 
+        // then rinse repeat for each question and tie it up by displaying the score
+        // and giving the user a chance to enter their initials
+    }
+
 
     console.log('hello');
 
