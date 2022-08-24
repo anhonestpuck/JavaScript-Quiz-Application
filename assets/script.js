@@ -24,15 +24,19 @@ var quiz = document.querySelector('.quiz');
 var question1 = document.querySelector('.question1');
 var question2 = document.querySelector('.question2');
 var question3 = document.querySelector('.question3');
-var question4 = document.querySelector('.question4')
-var initials = document.querySelector('initials')
-
+var question4 = document.querySelector('.question4');
+var initials = document.querySelector('.initials');
+var ca1 = document.querySelector('.ca1');
+var ca2 = document.querySelector('.ca2');
+var ca3 = document.querySelector('.ca3');
+var ca4 = document.querySelector('.ca4');
+// at this point i'd rather have variables and not need them, than the other
 // pretty much just put together the rest of the variables.  do I really need to go in and juice up my css to make this work?
 button.addEventListener('click', displayQuestion);
 
 
 function displayQuestion() {
-    quiz.setAttribute('display: visible').addEventListener('click');
+    question1.setAttribute('style', 'visibility: visible');
 
     console.log('hello');
 
