@@ -12,3 +12,6 @@ WHEN all questions are answered or the timer reaches 0
 THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
+
+### Process
+This is probably the worst code you've ever seen and its totally broken but the instructor said to just go ahead and turn it in and go back to it if I need to.

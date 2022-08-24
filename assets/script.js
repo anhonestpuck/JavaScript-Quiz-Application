@@ -49,6 +49,15 @@ function displayQuestion() {
         // and giving the user a chance to enter their initials
     }
 
+    // He said to just turn it in.  basically at this point I was going to build the function
+    // on to take off the answer if they click the right choice
+    // otherwise pop an alert saying wrong and transition into the next question
+    // then repeat this process for each question
+    // afterward i would have the input show and ask for they're initials
+    // as well as insert a string that is the value of the length of the string which is an array collecting each element
+    // as one of the values in the string so that the number of strings logged equates to the number of points
+    // and then go back in and add a timer
+    // with a modifier that every wrong click drops 5 seconds
 
     console.log('hello');
 
