@@ -26,12 +26,14 @@ var question2 = document.querySelector('.question2');
 var question3 = document.querySelector('.question3');
 var question4 = document.querySelector('.question4')
 var initials = document.querySelector('initials')
+
+// pretty much just put together the rest of the variables.  do I really need to go in and juice up my css to make this work?
 button.addEventListener('click', displayQuestion);
 
 
 function displayQuestion() {
-    quiz.setAttributeNode('display: visible')
+    question1.setAttribute('display: visible').addEventListener('click');
 
-    console.log('hello')
+    console.log('hello');
 
 }
